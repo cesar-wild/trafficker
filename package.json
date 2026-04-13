@@ -1,0 +1,33 @@
+{
+  "name": "trafficker",
+  "version": "1.0.0",
+  "description": "Autonomous Meta Ads management system. Users fill in a brief, select a Playbook, and the system generates creatives, launches campaigns, kills underperformers, auto-scales winners, controls spend, and reports daily via email.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cesar-wild/trafficker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/cesar-wild/trafficker/issues"
+  },
+  "homepage": "https://github.com/cesar-wild/trafficker#readme",
+  "dependencies": {
+    "@prisma/client": "^7.7.0",
+    "@types/node": "^25.6.0",
+    "@types/react": "^19.2.14",
+    "facebook-nodejs-business-sdk": "^24.0.1",
+    "next": "^14.2.35",
+    "next-auth": "^4.24.13",
+    "prisma": "^7.7.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript": "^6.0.2"
+  }
+}
