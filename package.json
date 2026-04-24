@@ -4,7 +4,7 @@
   "description": "Autonomous Meta Ads management system. Users fill in a brief, select a Playbook, and the system generates creatives, launches campaigns, kills underperformers, auto-scales winners, controls spend, and reports daily via email.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "vitest run",
   },
   "repository": {
     "type": "git",
@@ -29,5 +29,8 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "typescript": "^6.0.2"
+  },
+  "devDependencies": {
+    "vitest": "^4.1.5"
   }
 }
